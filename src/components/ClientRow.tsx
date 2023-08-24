@@ -17,9 +17,9 @@ export default function ClientRow({ client } : ClientProps ) {
         data: {
           clients: clients.filter((client: any) => client.id !== deleteClient.id),
         },
-      });
-    },
-  });
+    });
+  },
+});
 
   return (
     <tr>
